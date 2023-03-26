@@ -1,0 +1,28 @@
+mysqli_fetch_row();
+mysqli_fetch_assoc();
+mysqli_fetch_array();
+mysqli_fetch_object();
+
+// * = mengambil semua data
+
+//  mengembalikan index angka "Row"
+// $cek =  mysqli_fetch_row($result);
+
+ //  mengembalikan index string "Assoc"
+ // $cek =  mysqli_fetch_assoc($result);
+
+ //mengembalikan index 2 angka "Array"
+ // $cek =  mysqli_fetch_array($result);
+
+ // mengembalikan nilai 1 "object"
+ // $cek = mysqli_fetch_object($result);
+
+ mysql_query untuk mengolah data
+
+ $query adalah nama variabel yang akan menampung hasil dari fungsi mysql_query
+
+ $result adalah variabel yang akan menampung hasil dari fungsi mysql_query ().
+
+ ctrl + d backspace
+
+ htmlspecialchars untuk mengantisipasi kode jail
